@@ -1,0 +1,21 @@
+{
+  "name": "korok-core",
+  "version": "0.0.1",
+  "description": "Korok - Configurable Components System",
+  "main": "dist/korok.js",
+  "typings": "types/korok.d.ts",
+  "repository": "github.com/iwillwen/korok",
+  "author": "iwillwen",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^11.13.2",
+    "ts-loader": "^5.3.3",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
